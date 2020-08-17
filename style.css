@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 2px;
+}
+#star{
+    width: 100%;
+    height: 5px;
+    background-color: blue;
+}
+.header{
+    background-color: rgb(148, 92, 7);
+    width: 100%;
+    padding-left: 2%;
+}
+.header H1{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(250, 250, 250);
+    padding: 1%;
+}
+hr{
+    background-color: black;
+}
+.header div ol{
+    display: flex;
+}
+.header div ol li{
+  width: 100px;
+  list-style: none;
+}
+.header div ol li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 700;
+}
+.bd{
+width: 100%;
+background-color: rgb(163, 66, 9);
+}
+.bd .correct{
+    width: 100%;
+    height: 600px;
+    background: url(feed3.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.bd .correct2{
+    width: 100%;
+    height: 600px;
+    background: url(feed.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.correct2 div{
+    padding: 5%;
+    background-color: rgba(14, 134, 134, 0.404);
+    color: rgb(253, 253, 253);
+    font-weight: 700;
+}
+.correct .kade{
+    padding-top: 45%;
+    display: flex;
+}
+.kade div{
+    width: 50%;
+    color: aliceblue;
+
+}
+.kade div.right{
+    padding-left: 20%;
+    
+}
+#das{
+background-color: rgb(204, 127, 11);
+}
+.bottom{
+    display: flex;
+    width: 100%;
+}
+.bottom div{
+    color: cornsilk;
+    width: 32%;
+    padding: 1%;
+}
+.bottom div img{
+width: 90%;
+}
+.we{
+    background-color: cornsilk;
+    padding: 2%;
+}
+.breed{
+    display: flex;
+  color: whitesmoke;
+}
+.breed div{
+    color: rgb(206, 224, 245);
+    padding: 1%;
+    font-weight: 600;
+    border-right: saddlebrown 2px solid;
+}
+.breed div img{
+  width: 90%;
+}
